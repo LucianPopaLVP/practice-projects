@@ -16,7 +16,7 @@ while True:
                 print('You are right!')
                 break
         else:
-            print('Read carefully! Nees a number 1- 10:  ')
+            print('Read carefully! Need a number 1- 10:  ')
     except ValueError:
         print('Please enter a number!!!')
         continue
