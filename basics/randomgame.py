@@ -13,10 +13,10 @@ while True:
         guess = int(input('Guess a number 1 - 10:  '))
         if  0 < guess < 11:
             if guess == answer:
-                print('You are right!')
+                print('You are right! You little lucky cookie!')
                 break
         else:
-            print('Read carefully! Need a number 1- 10:  ')
+            print('Read carefully! I requested a number 1- 10:  ')
     except ValueError:
         print('Please enter a number!!!')
         continue
