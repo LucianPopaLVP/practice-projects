@@ -10,7 +10,7 @@ class TestMain(unittest.TestCase):
     def test_do_stuff2(self):
         test_param = 'Lucian'
         result = main.do_stuff(test_param)
-        self.assertTrue(isinstance(result, ValueError))
+        self.assertIsInstance(result, ValueError)
 
 
 if __name__ == '__main__':
