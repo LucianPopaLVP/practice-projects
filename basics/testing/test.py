@@ -19,6 +19,9 @@ class TestMain(unittest.TestCase):
         result = main.do_stuff(test_param)
         self.assertEqual(result, 'please, enter a number!')
 
+    def tearDown(self):
+        print('done!')
+
 
 if __name__ == '__main__':
     unittest
