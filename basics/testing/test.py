@@ -2,6 +2,8 @@ import unittest
 import main
 
 class TestMain(unittest.TestCase):
+    def setUp(self):
+        print('testing....')
     def test_do_stuff(self):
         test_param = 10
         result = main.do_stuff(test_param)
