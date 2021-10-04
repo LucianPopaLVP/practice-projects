@@ -10,14 +10,15 @@ def run_guess(guess, answer):
         else:
             print('Read carefully! I requested a number 1- 10:  ')
 
-answer = randint(1, 10)
-while True:
-    try:
-        guess = int(input('Guess a number 1 - 10:  '))
-        if(run_guess(guess, answer)):
-            break
+if __name__ == '__main__':
+    answer = randint(1, 10)
+    while True:
+        try:
+            guess = int(input('Guess a number 1 - 10:  '))
+            if(run_guess(guess, answer)):
+                break
 
-    except ValueError:
-        print('Please enter a number!!!')
-        continue
+        except ValueError:
+            print('Please enter a number!!!')
+            continue
 
