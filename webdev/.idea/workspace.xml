@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddb3bc86-0418-421b-ad3e-1188932e5f6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../flaskwebdev/personalwebsite/database.txt" afterDir="false" />
+    <list default="true" id="ddb3bc86-0418-421b-ad3e-1188932e5f6f" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/../flaskwebdev/personalwebsite/database.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flaskwebdev/personalwebsite/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flaskwebdev/personalwebsite/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -75,6 +75,14 @@
       <option name="presentableId" value="Default" />
       <updated>1633888191993</updated>
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1633891000603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633891000603</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
