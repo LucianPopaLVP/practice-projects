@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb3bc86-0418-421b-ad3e-1188932e5f6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../flaskwebdev/personalwebsite/templates/thankyou.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskwebdev/personalwebsite/database.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flaskwebdev/personalwebsite/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flaskwebdev/personalwebsite/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flaskwebdev/personalwebsite/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../flaskwebdev/personalwebsite/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
