@@ -37,6 +37,6 @@ def game():
         turns = check_answer(answer, guess, turns)
         if turns == 0:
             print("You are out of guesses! You lost!")
-            
+
 
 game()
