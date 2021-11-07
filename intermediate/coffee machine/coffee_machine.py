@@ -24,19 +24,18 @@ MENU = {
     }
 }
 cash_on_hand = 0
-
 resources = {
-    "water": 300,
-    "milk": 200,
-    "coffee": 100,
+    "water": 3000,
+    "milk": 2000,
+    "coffee": 1000,
 }
 
 def is_resource_sufficient(order_ingredients):
     """Returns True when order can be made, False when ingredients are not sufficient"""
     for item in order_ingredients:
-        order_ingredients >= resources[item]
-        print(f"Sorry there is not enough {item}.")
-        return False
+        if order_ingredients[item] > resources[item]:
+            print(f"Sorry there is not enough {item}.")
+            return False
     return True
 
 def process_coins():
