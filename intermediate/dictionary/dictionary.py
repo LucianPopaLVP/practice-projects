@@ -1,4 +1,5 @@
 import json
+from difflib import get_close_matches
 
 data = json.load(open("data.json"))
 
@@ -10,6 +11,8 @@ def translate(word):
         return data[word.title()]
     elif word.upper() in data:
         return data[word.upper()]
+    # Get the close matches
+    
     else:
         print("Word not found!")
 
