@@ -12,7 +12,7 @@ def translate(word):
     elif word.upper() in data:
         return data[word.upper()]
     # Get the close matches
-    
+    elif:
     else:
         print("Word not found!")
 
