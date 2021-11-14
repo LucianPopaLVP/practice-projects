@@ -1,4 +1,5 @@
 import random
+print("Welcome to DiceSimulator!")
 
 x = "y"
 
@@ -45,5 +46,5 @@ while x == "y":
         print("|  0    0 |")
         print("|  0    0 |")
         print("-----------")
-    x = input("y or n")
+    x = input("Press y to roll again! ")
 
