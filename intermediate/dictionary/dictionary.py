@@ -14,6 +14,10 @@ def translate(word):
     # Get the close matches
     elif len(get_close_matches(word, data.keys())) > 0:
         print("Did you mean %s instead " %get_close_matches(word,data.keys())[0])
+        decide = input("Press yes or no: ")
+        if decide == "yes":
+            return data[get_close_matches(word, data.keys())[0]]
+        elif 
     else:
         print("Word not found!")
 
