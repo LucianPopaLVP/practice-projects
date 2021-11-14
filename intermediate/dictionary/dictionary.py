@@ -17,7 +17,10 @@ def translate(word):
         decide = input("Press yes or no: ")
         if decide == "yes":
             return data[get_close_matches(word, data.keys())[0]]
-        elif 
+        elif decide == "no":
+            return("word not found!")
+        else:
+            return("You have entered a wrong input! Please enter yesr or no: ")
     else:
         print("Word not found!")
 
