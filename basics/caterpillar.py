@@ -44,8 +44,17 @@ def place_leaf():
     leaf.showturtle()
     
 def game_over():
-
+    caterpillar.color('yellow')
+    leaf.color('yellow')
+    t.penup()
+    t.hideturtle()
+    t.write('Game over!', align='center', font=('Arial', 30, 'normal'))
+    
 def display_score():
+    score_turtle.clear()
+    score_turtle.penup()
+    x = 
+    y =
 
 ti.sleep(3)
 
