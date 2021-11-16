@@ -58,10 +58,11 @@ def display_score(current_score):
     score_turtle.write(str(current_score), align='right', font=('Arial', 40, 'bold'))
 
 def start_game():
-    global  game_started
+    global game_started
     if game_started:
         return
     game_started = True
+    
     score = 0
     text_turtle.clear()
 
@@ -71,6 +72,19 @@ def start_game():
     caterpillar.showturtle()
     display_score(score)
     place_leaf()
+
+    while True:
+        caterpillar.forward(caterpillar_speed)
+        if caterpillar.distance(leaf) < 20:
+            place_leaf()
+            caterpillar_lenght = caterpillar_lenght + 1
+            caterpillar.shapesize(1, caterpillar_lenght, 1)
+            caterpillar_speed = caterpillar_speed + 1
+            score = score + 10
+            display_score(score)
+        elif outside_window():
+            game_over()
+            break
 
 t.onkey(start_game,'space')
 t.listen()
