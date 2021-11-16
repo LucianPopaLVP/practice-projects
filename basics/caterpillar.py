@@ -10,7 +10,8 @@ caterpillar.speed(0)
 caterpillar.penup()
 
 leaf = t.Turtle()
-leaf_shape = ((),(),(),(),(),())
+leaf_shape = ((0,0),(14,2),(18,6),(20,20),(6,18),(2,14))
+t.register_shape('leaf')
 
 text_turtle = False
 text_turtle = t.Turtle()
