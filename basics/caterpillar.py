@@ -50,7 +50,7 @@ def game_over():
     t.hideturtle()
     t.write('Game over!', align='center', font=('Arial', 30, 'normal'))
     
-def display_score():
+def display_score(current_score):
     score_turtle.clear()
     score_turtle.penup()
     x = (t.window_width()/2) - 50
@@ -62,7 +62,15 @@ def start_game():
     if game_started:
         return
     game_started = True
+    score = 0
+    text_turtle.clear()
 
+    caterpillar_speed = 2
+    caterpillar_lenght = 3
+    caterpillar.shapesize(1, caterpillar_lenght, 1)
+    caterpillar.showturtle()
+    display_score(score)
+    place_leaf()
 
 t.onkey(start_game,'space')
 t.listen()
