@@ -10,7 +10,7 @@ caterpillar.speed(0)
 caterpillar.penup()
 
 leaf = t.Turtle()
- 
+leaf_shape = ((),(),(),(),(),())
 
 text_turtle = False
 text_turtle = t.Turtle()
