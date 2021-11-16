@@ -53,8 +53,19 @@ def game_over():
 def display_score():
     score_turtle.clear()
     score_turtle.penup()
-    x = 
-    y =
+    x = (t.window_width()/2) - 50
+    y = (t.window_height()/2) - 50
+    score_turtle.write(str(current_score), align='right', font=('Arial', 40, 'bold'))
 
-ti.sleep(3)
+def start_game():
+    global  game_started
+    if game_started:
+        return
+    game_started = True
+
+
+t.onkey(start_game,'space')
+t.listen()
+t.mainloop()
+
 
