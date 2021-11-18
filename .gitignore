@@ -7,3 +7,4 @@ basics/DB builder from CSV/.ipynb_checkpoints/main-checkpoint.ipynb
 intermediate/plotter/.ipynb_checkpoints/main-checkpoint.ipynb
 advanced/donation_analysis/.ipynb_checkpoints/main-checkpoint.ipynb
 *.csv
+temp/temp.ipynb
