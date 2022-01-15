@@ -21,3 +21,8 @@ t.goto(-100,-150)
 rectangle(50,20,'blue')
 t.goto(-30,-150)
 rectangle(50,20,'blue')
+
+t.goto(-25,-50)
+rectangle(15,100,'grey')
+t.goto(-55,-50)
+rectangle(-15,100,'grey')
