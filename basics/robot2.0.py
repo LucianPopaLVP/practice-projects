@@ -51,3 +51,7 @@ t.goto(-40,155)
 rectangle(5,5,'black')
 t.goto(-65,138)
 rectangle(40,5,'black')
+
+ti.sleep(10)
+
+t.hideturtle()
