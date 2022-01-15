@@ -16,3 +16,8 @@ def rectangle(hor,ver,col):
 t.penup()
 t.speed('slow')
 t.bgcolor('Dodger blue')
+
+t.goto(-100,-150)
+rectangle(50,20,'blue')
+t.goto(-30,-150)
+rectangle(50,20,'blue')
