@@ -26,3 +26,6 @@ t.goto(-25,-50)
 rectangle(15,100,'grey')
 t.goto(-55,-50)
 rectangle(-15,100,'grey')
+
+t.goto(-90,100)
+rectangle(100,150,'red')
