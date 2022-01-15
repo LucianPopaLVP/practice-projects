@@ -13,3 +13,6 @@ def rectangle(hor,ver,col):
         t.right(90)
     t.end_fill()
     t.penup()
+t.penup()
+t.speed('slow')
+t.bgcolor('Dodger blue')
